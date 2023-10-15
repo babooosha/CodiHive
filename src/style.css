@@ -1,0 +1,29 @@
+@tailwind base; 
+@tailwind components;
+@tailwind utilities; 
+
+* {
+  font-family: "Montserrat", sans-serif; /* Qual?? */
+
+}
+
+body {
+  margin: 0;
+  background-color: #efefef;
+}
+
+#app {
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smoothing: grayscale;
+
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 250px 1fr;
+  grid-template-areas: 
+      "header header"
+      "menu content"
+      "menu content";
+
+}
