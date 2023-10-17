@@ -8,7 +8,9 @@
             <router-link to="/login">Login</router-link>
        </p>
     </div> -->
-    
+    <div class="backgroundImg">
+        <img class="min-h-screen w-screen flex flex-col" src="../assets/img/wave.png" alt="background image wave">
+    </div>
     <div class="bg-grey-lighter min-h-screen w-screen flex flex-col">
             <div class="container max-w-sm mx-auto flex-1 flex flex-col items-center justify-center px-2">
                 <div class="bg-white px-6 py-8 rounded shadow-md text-black w-full">
@@ -84,7 +86,7 @@ export default {
     //     return {
     //         name: '',
     //         email: '',
-    //         password: ''
+    //         password: '',
     //     }
     // },
     // methods: {
@@ -112,4 +114,6 @@ export default {
 
 </script>
 
+<style>
 
+</style>
