@@ -1,6 +1,6 @@
 <template>
     <header class="header">
-        <img src="https://www.tesigandia.com/imagenes/logo-tesi-blanco.png" alt="Header Image"/>
+        <router-link to="/"><img src="https://www.tesigandia.com/imagenes/logo-tesi-blanco.png" alt="Header Image"/></router-link>
         <LanguageDropdown class="dropdown"/>
     </header>
 </template>
@@ -25,7 +25,7 @@ export default {
         background-color: #ffff;
 
         display: flex; /* row by default */
-        justify-content: right; /* main axis */
+        justify-content: space-between; /* main axis */
         align-items: right;
         border: 1px solid #cacaca;
         border-radius: 4px;
