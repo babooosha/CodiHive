@@ -1,15 +1,4 @@
-<template>
-    <!-- <div class="register">
-       <input type="text" v-model="name" placeholder="Name" />
-       <input type="text" v-model="email" placeholder="Email" />
-       <input type="password" v-model="password" placeholder="Password" />
-       <button v-on:click="signUp">Sign Up</button>
-       <p>
-            <router-link to="/login">Login</router-link>
-       </p>
-    </div> -->
-    
-    
+<template> 
     <div class="bg-background-image w-screen h-screen flex items-center justify-center">
         <div class="container max-w-sm mx-auto flex-1 flex flex-col items-center justify-center px-2">
                 <div class="bg-white px-6 py-8 rounded shadow-md text-black w-full">

@@ -1,13 +1,4 @@
 <template>
-    <!-- <div class="login">
-       <input type="text" v-model="name" placeholder="Email" />
-       <input type="text" v-model="name" placeholder="Password" />
-       <button v-on:click="login">Login</button>
-       <p>
-            <router-link to="/sign-up">SignUp</router-link>
-       </p>
-    </div> -->
-    
     <div class="bg-background-image w-screen h-screen flex items-center justify-center">
             <div class="container max-w-sm mx-auto flex-1 flex flex-col items-center justify-center px-2">
                 <div class="bg-white px-6 py-8 rounded shadow-md text-black w-full">
