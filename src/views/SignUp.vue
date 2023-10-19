@@ -8,11 +8,10 @@
             <router-link to="/login">Login</router-link>
        </p>
     </div> -->
-    <div class="backgroundImg">
-        <img class="min-h-screen w-screen flex flex-col" src="../assets/img/wave.png" alt="background image wave">
-    </div>
-    <div class="bg-grey-lighter min-h-screen w-screen flex flex-col">
-            <div class="container max-w-sm mx-auto flex-1 flex flex-col items-center justify-center px-2">
+    
+    
+    <div class="bg-background-image w-screen h-screen flex items-center justify-center">
+        <div class="container max-w-sm mx-auto flex-1 flex flex-col items-center justify-center px-2">
                 <div class="bg-white px-6 py-8 rounded shadow-md text-black w-full">
                     <h1 class="mb-8 text-3xl font-bold leading-6 text-gray-700 text-center">Sign up</h1>
                     <input 
@@ -62,9 +61,9 @@
                     </div> -->
                 </div>
 
-                <div class="mt-10 text-center text-sm text-gray-500">
+                <div class="mt-10 text-center text-sm text-gray-200">
                     Already have an account? 
-                    <router-link class="font-semibold leading-6 text-gray-400 hover:text-gray-700" to="/login">Login</router-link> 
+                    <router-link class="font-semibold leading-6 text-gray-400 hover:text-white" to="/login">Login</router-link> 
                         
                     
                 </div>
@@ -115,5 +114,12 @@ export default {
 </script>
 
 <style>
+
+.bg-background-image {
+  
+  background-image: url('../assets/img/wave.png');
+  background-size: cover;
+  background-position: center;
+}
 
 </style>
