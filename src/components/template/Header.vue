@@ -26,7 +26,7 @@ export default {
 
         display: flex; /* row by default */
         justify-content: space-between; /* main axis */
-        align-items: right;
+        /* align-items: right; */
         border: 1px solid #cacaca;
         border-radius: 4px;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
