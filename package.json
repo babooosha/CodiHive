@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@harv46/vue-table": "^0.0.6",
     "@headlessui/vue": "^1.7.16",
     "@heroicons/vue": "^2.0.18",
     "axios": "^1.5.1",
