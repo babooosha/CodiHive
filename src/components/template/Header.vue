@@ -1,6 +1,6 @@
 <template>
     <header class="header">
-        <router-link to="/"><img src="https://www.tesigandia.com/imagenes/logo-tesi-blanco.png" alt="Header Image"/></router-link>
+        <router-link to="/"><img src="https://www.tesigandia.com/imagenes/logo-tesi-blanco.png" v-on:click="home" href="#" alt="Header Image"/></router-link>
         <LanguageDropdown class="dropdown"/>
     </header>
 </template>
@@ -14,8 +14,11 @@ import LanguageDropdown from '@/components/template/LanguageDropdown.vue'
 export default {
     name: 'Header',
     components: { LanguageDropdown },
-    
-    
+    methods: {
+      home() {
+        this.$router.push({name:'Home'})
+      }
+    }
 }
 </script>
 
