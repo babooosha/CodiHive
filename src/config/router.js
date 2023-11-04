@@ -2,8 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from '@/views/Home.vue'
 import Login from '@/views/Login.vue'
 import SignUp from '@/views/SignUp.vue'
-import Searches from '@/components/MenuPages/Searches.vue'
-import Panelists from '@/components/MenuPages/Panelists.vue'
+import Projects from '@/components/MenuPages/Projects.vue'
+import Clients from '@/components/MenuPages/Clients.vue'
 
 const routes = [
     {
@@ -25,15 +25,15 @@ const routes = [
     },
 
     {
-        name: 'Searches',
-        component: Searches,
-        path: '/searches',
+        name: 'Projects',
+        component: Projects,
+        path: '/projects',
     },
 
     {
-        name: 'Panelists',
-        component: Panelists,
-        path: '/panelists',
+        name: 'Clients',
+        component: Clients,
+        path: '/clients',
     },
 ]
 
