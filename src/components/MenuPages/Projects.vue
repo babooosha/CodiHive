@@ -6,7 +6,7 @@
         <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8">
           <div class="overflow-hidden">
             <table class="border-l-8 border-t-8 min-w-full text-center text-sm font-light shadow-lg bg-white border-collapse">
-              <thead slot="head" class="border-b font-sm text-white bg-gray-700"> <!--class="flex justify-between gap-x-6 py-5relative rounded-t-md text-sm font-medium bg-gray-700 shadow-xl"-->
+              <thead slot="head" class="border-b rounded-t font-sm text-white bg-gray-700"> <!--class="flex justify-between gap-x-6 py-5relative rounded-t-md text-sm font-medium bg-gray-700 shadow-xl"-->
                 <tr> 
                   <th>NAME</th>
                   <th>CATEGORIES</th>

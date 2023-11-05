@@ -4,6 +4,7 @@ import Login from '@/views/Login.vue'
 import SignUp from '@/views/SignUp.vue'
 import Projects from '@/components/MenuPages/Projects.vue'
 import Clients from '@/components/MenuPages/Clients.vue'
+import DropZone from '@/components/MenuPages/DropZone.vue'
 
 const routes = [
     {
@@ -34,6 +35,12 @@ const routes = [
         name: 'Clients',
         component: Clients,
         path: '/clients',
+    },
+
+    {
+        name: 'DropZone',
+        component: DropZone,
+        path: '/drop-zone',
     },
 ]
 
